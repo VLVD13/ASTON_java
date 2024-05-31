@@ -8,19 +8,19 @@ public class AnimalMain {
 
         Cat catBarsik = new Cat("Барсик", 50);
         Dog dogTuzik = new Dog("Тузик");
-        Cat catDima = new Cat("Дима", 50);
-        Dog dogGuf = new Dog("Гуф");
+        Cat catBoris = new Cat("Борис", 50);
+        Dog dogMuhtar = new Dog("Мухтар");
         catBarsik.run(100);
         dogTuzik.run(250);
 
-        catDima.swim(1);
-        dogGuf.swim(5);
+        catBoris.swim(1);
+        dogMuhtar.swim(5);
 
         System.out.println("Всего животных: " + Animal.getCountAnimal());
         System.out.println("Всего котов: "+ Cat.getCountCat());
         System.out.println("Всего собак: "+ Dog.getCountDod());
 
-        Cat[] cats = {new Cat("Василий", 50), new Cat("Матроскин", 50), new Cat("Пятнышко", 25), new Cat("Максфлянтий", 5), new Cat("Граф", 1)};
+        Cat[] cats = {new Cat("Василий", 50), new Cat("Матроскин", 50), new Cat("Биток", 25), new Cat("Вайфай", 5), new Cat("Жрун", 1)};
         Plate plate = new Plate(80);
 
         for (Cat cat : cats) {
